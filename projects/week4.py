@@ -39,24 +39,24 @@ class Bike:
 ```
 '''
 
-# class Bike:
-#     # Attributes of Bike class
-#     name: str = "Royal Enfield"
-#     mileage: int = 10 
-#     gear: int = 5 
-#     color: str = "Black"
+class Bike:
+    # Attributes of Bike class
+    name: str = "Royal Enfield"
+    mileage: int = 10 
+    gear: int = 5 
+    color: str = "Black"
 
-# # to intialize a class we have to store (information) inside a variable (object)
+# to intialize a class we have to store (information) inside a variable (object)
 
-# bike = Bike() # intialization of class object 
+bike = Bike() # intialization of class object 
 
-# '''
-# type() 
-# '''
-# print(f"Datatype of `bike` object: {type(bike)}")
+'''
+type() 
+'''
+print(f"Datatype of `bike` object: {type(bike)}")
 
-# print(f"name of the bike: {bike.name}") # . operator helps you to access attributes of the class (Bike) 
-# print(f"Number of gears in my bike: {bike.gear}")
+print(f"name of the bike: {bike.name}") # . operator helps you to access attributes of the class (Bike) 
+print(f"Number of gears in my bike: {bike.gear}")
 
 
 # class Bike:
